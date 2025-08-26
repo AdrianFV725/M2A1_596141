@@ -38,6 +38,12 @@
     border-radius: 5px;
 }
 
+.link_peliculas:hover{
+    background-color: #4edcd7;
+    transition: background-color 0.3s ease;
+    transform: scale(1.02);
+}
+
 .cont_peliculas{
     display: flex;
     flex-direction: column;
@@ -50,6 +56,12 @@
     padding: 20px;
     background-color: #f0f0f0;
     border-radius: 10px;
+}
+
+.cont_peliculas:hover{
+    background-color: #e0e0e0;
+    transition: background-color 0.3s ease;
+    transform: scale(1.02);
 }
 
 .title{
