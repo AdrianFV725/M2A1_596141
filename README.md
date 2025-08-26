@@ -7,3 +7,5 @@ Use un formato simple con divs dentro de una lista, que contienen todo sobre una
 Tambien use el elemento de img para poder desplegar la portada de cada una de las peliculas, que tambien las ajuste con css para que tengan el mismo tamaño y tambien las centre.
 
 Por ultimo tambien use el elemento a, que sirve para poder poner links, estos los use para poder referenciar e link del trailer de cada una de las peliculas.
+
+P.D: por temas de Google Drive tuve que agregar un git ignore por que me daba problemas con el archivo de Icon al subirlo a github.
