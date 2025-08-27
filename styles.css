@@ -99,3 +99,43 @@
     line-height: 1.5;
     margin-bottom: 20px;
 }
+
+.link_top{
+    /* Posicionamiento fijo en esquina inferior derecha */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    
+    /* Estilo del botón */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    
+    /* Tipografía */
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    line-height: 1;
+    
+    /* Apariencia */
+    background-color: #c53838;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(197, 56, 56, 0.3);
+    
+    /* Transiciones suaves */
+    transition: all 0.3s ease;
+    
+    /* Asegurar que esté siempre visible */
+    z-index: 1000;
+}
+
+.link_top:hover{
+    background-color: #4edcd7;
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(78, 220, 215, 0.4);
+    color: #ffffff;
+}
